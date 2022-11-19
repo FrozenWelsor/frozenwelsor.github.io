@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+* {
+    font-family: 'Comfortaa', cursive;
+}
+
+header {
+    background-color: #ffe4c4;
+    padding: 2em;
+}
+
+.nav-link {
+    color: #8e7f6d;
+    font-size: 1.2em;
+}   
+
+.card-text {
+    height: 150px;
+}
+
+footer {
+    background-color: #ffe4c4;
+    padding: 2em;
+    font-style: italic;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+h2 {
+    text-align: center;
+}
+.sale {
+    justify-content: center;
+    display: flex;
+    height: 287px;
+}
