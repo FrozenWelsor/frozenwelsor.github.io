@@ -33,6 +33,22 @@ footer p {
     display: flex;
     height: 287px;
 }
+.col {
+    display: flex;
+    margin: 0 0 15px 0;
+}
 .saleprice {
     text-decoration: line-through;
+}
+@media (max-width: 768px) {
+    .img-fluid {
+        height: 70%;
+    }
+    .col-md-4 {
+        width: 170px;
+        height: 385px;
+    }
+    .col {
+        justify-content: center;
+    }
 }
