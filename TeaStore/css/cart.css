@@ -12,10 +12,6 @@ header {
 .nav-link {
     color: #8e7f6d;
     font-size: 1.2em;
-}   
-
-.card-text {
-    height: 150px;
 }
 
 footer {
@@ -28,11 +24,6 @@ footer {
 footer p {
     margin: 0;
 }
-.sale {
-    justify-content: center;
-    display: flex;
-    height: 287px;
-}
-.saleprice {
-    text-decoration: line-through;
+.row {
+    margin: 0px 0px 20px 0px;
 }
