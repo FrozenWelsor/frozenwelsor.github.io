@@ -39,6 +39,7 @@ footer p {
 }
 .saleprice {
     text-decoration: line-through;
+    margin: 0 8px 0 0;
 }
 @media (max-width: 768px) {
     .img-fluid {
