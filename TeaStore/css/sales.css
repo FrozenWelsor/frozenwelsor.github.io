@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 
 * {
@@ -13,10 +12,6 @@ header {
 .nav-link {
     color: #8e7f6d;
     font-size: 1.2em;
-}   
-
-.card-text {
-    height: 150px;
 }
 
 footer {
@@ -29,18 +24,19 @@ footer {
 footer p {
     margin: 0;
 }
-.sale {
-    justify-content: center;
-    display: flex;
+
+hr {
+    margin: 0;
+}
+h2 {
+    text-align: center;
+}
+.card mb-3 {
     height: 287px;
 }
 .col {
     display: flex;
-    margin: 15px 0 15px 0;
-}
-.saleprice {
-    text-decoration: line-through;
-    margin: 0 8px 0 0;
+    margin: 0 10px 15px 10px;
 }
 @media (max-width: 768px) {
     .img-fluid {
@@ -54,9 +50,8 @@ footer p {
         justify-content: center;
     }
 }
-hr {
-    margin: 0;
-}
-.dropdown-item active {
-    color: #0d6efd;
+.blackfriday {
+    margin: 0 0 10px 0;
+    justify-content: center;
+    display: flex;
 }
