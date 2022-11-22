@@ -15,8 +15,11 @@ header {
     font-size: 1.2em;
 }   
 
-.card-text {
+.sale {
     height: 150px;
+    justify-content: center;
+    display: flex;
+    height: 287px;
 }
 
 footer {
@@ -28,11 +31,6 @@ footer {
 
 footer p {
     margin: 0;
-}
-.sale {
-    justify-content: center;
-    display: flex;
-    height: 287px;
 }
 .col {
     display: flex;
@@ -57,6 +55,6 @@ footer p {
 hr {
     margin: 0;
 }
-.dropdown-item active {
+.dropdown-item:active {
     color: #0d6efd;
 }
