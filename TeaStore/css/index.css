@@ -16,7 +16,7 @@ header {
 }
 
 .card-text {
-    height: 150px; /* fix there */
+    height: 150px; /* fix there (лучше указать высоту карточки, нежели текста) */
 }
 
 footer {
@@ -57,7 +57,7 @@ footer p {
 hr {
     margin: 0;
 }
-.dropdown-item active { /* fix there */
+.dropdown-item active { /* fix there (неверный селектор) */
     color: #0d6efd;
 }
 
