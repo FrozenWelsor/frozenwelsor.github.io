@@ -58,3 +58,6 @@ hr {
 .dropdown-item:active {
     color: #0d6efd;
 }
+.col .card {
+    width: 18rem;
+}

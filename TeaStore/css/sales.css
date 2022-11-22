@@ -55,3 +55,6 @@ h2 {
     justify-content: center;
     display: flex;
 }
+.col .card {
+    width: 18rem;
+}
