@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  user-select: none;
+  font-family: "Arial";
+}
+
+.gameover {
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  background-color: lightgray;
+}
+
+.container {
+  width: 500px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  transition: 500ms;
+  background-color: lightgreen;
+}
+
+.item_near {
+  background-color: lightsalmon;
+}
+
+.item_bomb {
+  background-color: darkslategray;
+}
+
+.item_closed {
+  background-color: black;
+}
